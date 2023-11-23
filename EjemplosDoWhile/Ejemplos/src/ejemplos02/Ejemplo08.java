@@ -24,7 +24,6 @@ public class Ejemplo08 {
 
         // TODO code application logic here
         int limite = 10;
-        int numerador = 1;
         int denominador = 1;
         String signo;
         String cadena = "";
@@ -32,15 +31,15 @@ public class Ejemplo08 {
         do {
             // para manejar el signo asociado 
             if (denominador % 2 == 0) {
-                signo = "+";
-            } else {
                 signo = "-";
+            } else {
+                signo = "+";
             }
             
-            cadena = String.format("%s%s%d/%d ", 
+            cadena = String.format("%s%s%d/%d\n", 
                     cadena,
                     signo,
-                    numerador, 
+                    denominador, 
                     denominador);
             denominador = denominador + 1;
 
