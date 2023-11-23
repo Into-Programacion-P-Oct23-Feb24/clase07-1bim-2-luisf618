@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ Este codigo eleva un numero, en este caso 4, a una potencia, que este caso es
+ el 3 mediante un ciclo que multiplica la base con un resultado y luego este
+ cambia y se vuelve a multiplicar para asi sacar la potencia
  */
 package ejemplos01;
 
